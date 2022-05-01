@@ -20,11 +20,11 @@
 
 			<h1>Poste de iluminação</h1>
 
-            <fieldset>
-				<div class="container">
-					<input type="text" required name="password">
-					<label>Código do Poste: P-0001 / Protocolo: 123456</label>
-				</div>
+                        <fieldset>
+			    <div class="container">
+			        <input  type="text" name="texto" id="protocolo" value="PI-II Poste=0001 / Protocolo Nr.123456789" readonly>
+		       <!--     <label>Código do Poste / Protocolo </label> -->
+			    </div>
 			</fieldset>
 
             <h1>Informação recebida</h1>
@@ -32,7 +32,8 @@
             <h1>Resolveremos o mais breve possivel</h1>
 
             <h1>Obrigado pela informação!</h1>
-
+			
+			<a><button type="button" onclick="copiarProtocolo()" id="copiar">COPIAR PROTOCOLO</button></a>
 
 			<a><button type="button" onclick="mudaTela5()">SAIR</button></a>
 
