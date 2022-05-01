@@ -1,5 +1,5 @@
 function mudaTela1(){
-	    window.location.href = "tela2.html"
+	    window.location.href = "templates/tela2.html"
 	}
 
 	function mudaTela2(){
@@ -15,7 +15,7 @@ function mudaTela1(){
 	}
 
 	function mudaTela5(){
-	    window.location.href = "tela1.html"
+	    window.location.href = "../index.html"
 	}
 
 	function mudaTelaN(){
@@ -23,5 +23,5 @@ function mudaTela1(){
 	}
 
 	function mudaTelaC(){
-	    window.location.href = "tela1.html"
+	    window.location.href = "../index.html"
 	}
