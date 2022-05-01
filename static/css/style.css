@@ -126,6 +126,10 @@ fieldset:nth-child(7) {
 	pointer-events: none;
 	transition: 0.5s;
 }
+.container label.ficaemcima {
+top: -15px;
+color: #00acd7;
+}
 .container input:focus ~ label,
 .container input:valid ~ label {
 	left: 20px;
