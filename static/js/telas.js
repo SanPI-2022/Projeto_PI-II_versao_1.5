@@ -13,8 +13,17 @@ function mudaTela1(){
 	function mudaTela4(){
 	    window.location.href = "tela5.html"
 	}
+	
+        function copiarProtocolo() {
+		let copiadoProtocolo = document.getElementById("protocolo");
+		copiadoProtocolo.select();
+		copiadoProtocolo.setSelectionRange(0, 99999);
+		
+		document.execCommand("copy");
+		alert("Copiado protocolo para área de transferência: " + copiadoProtocolo.value);
+        }
 
-	function mudaTela5(){
+         function mudaTela5(){
 	    window.location.href = "../index.html"
 	}
 
